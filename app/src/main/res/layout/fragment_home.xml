@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".HomeFragment">
+
+        <ImageView
+            android:id="@+id/gameLogoIV"
+            android:layout_width="302dp"
+            android:layout_height="218dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/dice"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.087" />
+
+        <TextView
+            android:id="@+id/gameNameTV"
+            android:layout_width="350dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Dice Game"
+            android:textColor="#2273B3"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gameLogoIV" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/playBtn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:text="Play"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gameNameTV" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rulesBtn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="36dp"
+            android:text="Rules"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playBtn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

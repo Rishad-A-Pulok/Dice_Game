@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dice Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rulesMsg"><![CDATA[After rolling:
+    \n\n-> If the sum of two dice is 7 or 11 in the first throw, YOU WIN!
+    \n\n-> If the sum of two dice is 2 or 3 or 12 in the first throw, YOU LOOSE!
+    \n\n-> If the sum is 4 or 5 or 6 or 8 or 9 or 10 in the first throw, IT BECOMES YOUR POINTS!
+    \n To win you must continue rolling the dice until you make your POINTS again.
+    \n\n-> If the sum of two dice is 7 before making your points, YOU LOOSE!]]></string>
+    <string name="startMsg">Press Roll Dice button to start!</string>
+
+</resources>
